@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding : 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red; */
+    height: 70px;
+    align-items: center;
+    background-color: #f2f2f2;
+    
+}
+
+.dropdown{
+    display: flex;
+    gap: 0px;
+   /* background-color: red; */
+    height: 40px;
+    
+}
+
+.search{
+    width: 400px;
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+}
+
+.search-icon {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    background-color: #db1212;
+    color: #fff;
+    border: none;
+}   
+
+.s-menu
+{
+    font-size: 14px;
+    border: none;
+    border-left: 1px solid  #db1212;
+}
+
+a{
+    color: #db1212;
+}
+
+.cart{
+    display: flex;
+    gap: 2px;
+    color: #002080;
+}
+
+
+
+p{
+    color: #002080;
+}
+
+.login{
+    display: block;
+    padding: 2px;
+    line-height: 1.4;
+    /* background-color: yellow; */
+}
+
+.title{
+   font-size: 0px;
+
+ 
+}
+.title span{
+    font-size: 28px;
+}
+
+.menu-list{
+    display: flex;
+    gap:40px;
+    justify-content: center;
+    /* background-color: red; */
+    height: 60px;
+    align-items: center;
+    
+}
+
+.menu-list select{
+    border: none;
+    font-size: 16px;
+}
