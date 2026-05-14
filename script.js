@@ -30,3 +30,13 @@ function showslides(n){
     slides[slideIndex-1].style.display="block";
     dots[slideIndex-1].className+=" active";
 }
+
+// Toggle table display on menu icon click
+document.getElementById('menu-icon').addEventListener('click', function() {
+    const table = document.querySelector('.table');
+    if (table.style.display === 'none' || table.style.display === '') {
+        table.style.display = 'block';
+    } else {
+        table.style.display = 'none';
+    }
+});
